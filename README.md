@@ -5,3 +5,4 @@ Ajout d'une ligne
 J'ajoute une deuxième ligne à la description README
 Ajout d'une ligne2 (ajout d'une ligne dans le README)
 Test pour issue
+Régler issue 1
