@@ -1,0 +1,14 @@
+{
+  "name": "civ6707a_a22",
+  "version": "0.0.1",
+  "description": "Codes node d'exemple pour le cours CIV6707A",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/kaligrafy/civ6707a_a22",
+  "author": "Pierre-Léo Bourbonnais <leo.bourbonnais@polymtl.ca>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "inquirer": "^9.1.1",
+    "node-fetch": "2"
+  }
+}
