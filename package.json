@@ -7,8 +7,9 @@
   "author": "Pierre-Léo Bourbonnais <leo.bourbonnais@polymtl.ca>",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "dependencies": {
     "inquirer": "^9.1.1",
-    "node-fetch": "2"
+    "node-fetch": "^3.2.10"
   }
 }

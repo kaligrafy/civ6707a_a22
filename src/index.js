@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+import fetch  from 'node-fetch';
 
 /*console.log('Ceci est un test');
 const a = 2;
@@ -11,9 +11,6 @@ if (a + b === 5) {
 }*/
 
 const stationsBixiUrl = "https://www3.longueuil.quebec/sites/longueuil/files/donnees_ouvertes/stationsbixi.json";
-fetch(stationsBixiUrl).then(function(response) {
-    response.json().then(function(jsonResponse) {
-        console.log(JSON.stringify(jsonResponse));
-        process.exit();
-    });
-});
+const bixiResponse = await fetch(stationsBixiUrl);
+const bixiJson = await bixiResponse.json();
+console.log(JSON.stringify(bixiJson));
